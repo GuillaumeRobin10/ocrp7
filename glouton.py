@@ -3,7 +3,7 @@ budget = 500
 cost = 0
 total_benefit = 0
 shouldbuy = ""
-data_frame = pd.read_csv("brut.csv")
+data_frame = pd.read_csv("Données.csv")
 
 for i, row in data_frame.iterrows():
     if row["price"] <= 0:

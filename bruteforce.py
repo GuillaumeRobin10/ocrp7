@@ -82,5 +82,5 @@ def display(resultat):
           f" pour un dépense de: {depense}")
 
 
-budget = 500
-display(exploration(get_actions("brut2.csv"), budget))
+BUDGET = 500
+display(exploration(get_actions("Données.csv"), BUDGET))
